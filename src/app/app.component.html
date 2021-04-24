@@ -1,30 +1,25 @@
-<div>Vaccination Portal</div>
-<div>
-  <span>
-      <a routerLink="/world">Click to know about vaccination status in World</a>
-      <br>
-  </span>
-  <span>
-      <a routerLink="/country">Click to know about vaccination status in Country</a>
-      <br>
-  </span>
- <span>
+<div class="container bg-primary">Vaccination Portal</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <li class="nav-item active nav-link">
+    <a routerLink="/world">Click to know about vaccination status in World</a>
+    </li>
+    <li class="nav-item active nav-link">
+    <a routerLink="/country">Click to know about vaccination status in Country</a>  
+    </li>
+    <li class="nav-item active nav-link">
     <a routerLink="/state">Click to know about vaccination status in State</a>
-    <br>
- </span>
-</div>
-<div>
-    <span>
-        <a routerLink="/guidelines/precautions">click to know precautions</a>
-        <br>
-    </span>
-    <span>
-        <a routerLink="/guidelines/immunityboost">How to boost immunity?</a>
-        <br>
-    </span>
-   <span>
-      <a routerLink="/guidelines/covidhelp">Need Covidhelp?</a>
-      <br>
-   </span>
-  </div>
+    </li>   
+</nav>
+<div class="container bg-primary">Guidelines</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <li class="nav-item active nav-link">
+                <a routerLink="/guidelines/precautions">Click to know about vaccination status in World</a>
+                </li>
+                <li class="nav-item active nav-link">
+                <a routerLink="/guidelines/immunityboost">Click to know about vaccination status in Country</a>  
+                </li>
+                <li class="nav-item active nav-link">
+                <a routerLink="/guidelines/covidhelp">Click to know about vaccination status in State</a>
+                </li>   
+</nav>
 <router-outlet></router-outlet>
